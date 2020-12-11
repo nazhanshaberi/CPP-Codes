@@ -1,0 +1,38 @@
+//MOHAMAD NAZHAN BIN MOHAMAD SHABERI
+//Code to let user choose either to calculate area or perimeter
+
+#include<iostream>
+using namespace std;
+main ()
+
+{
+    float length, width, perimeter, area, enter;
+
+    cout<<"Enter the length = ";
+    cin>>length;
+
+    cout<<"Enter the width = ";
+    cin>>width;
+
+cout<<"\n";
+
+    perimeter= (length*2)+(width*2);
+
+    area= (length*width);
+
+    cout<<"if chosee perimeter: 1 \n if chosee area: 2 \n your choice: ";
+
+    cin>>enter;
+
+
+    if (enter==1)
+         cout<<"The perimeter is = "<<perimeter;
+        else
+            if (enter==2)
+             cout<<"the area is = "<<area;
+        else
+            cout<<"you cannot read english? MUET band 1? \n";
+
+
+    return 0;
+}
