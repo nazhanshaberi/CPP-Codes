@@ -1,0 +1,41 @@
+//name: nazhan shaberi
+//date: 22/3/2018
+//purpose: a program to let user calculate and display the sum, product or average of three numbers
+
+#include<iostream>
+using namespace std;
+int main ()
+
+{
+    int num1,num2,num3,sum,product,average;
+    char ent;
+
+    cout<<"enter your number: ";
+    cin>>num1;
+
+    cout<<"enter your number: ";
+    cin>>num2;
+
+    cout<<"enter your number: ";
+    cin>>num3;
+
+
+
+    cout<<"hang nak aku kira apa? : sum:1 \n product:2 \n sum:3 \n";
+    cin>>ent;
+
+    if (ent == 1)
+        {sum= num1+num2+num3;
+        cout<<"the sum is: "<<sum;}
+        else
+    if (ent == 2)
+        {product=0;
+        cout<<"the product is: "<<product;}
+        else
+    if (ent == 3)
+        {average=(num1+num2+num3)/3;
+        cout<<"the average is: "<<average;}
+
+return 0;
+
+}
