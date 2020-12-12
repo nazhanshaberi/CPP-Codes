@@ -1,0 +1,20 @@
+//nama: nazhan shaberi
+//date: 22/3/2018
+//purpose: A program that calculate and display the average of three num
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float num1,num,i,average,total_num;
+    i=1;
+    num1=0;
+    while (i<=3)
+    {cout<<"enter the number: ";
+    cin>>num;
+    num1=num1+num;
+    i=i+1;}
+
+    average= num1/3;
+    cout<<"The average of three number is : "<<average;
+}
