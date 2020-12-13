@@ -1,0 +1,20 @@
+//NAME: MOHAMAD NAZHAN BIN MOHAMAD SHABERI
+//CLASS: F2P06
+//PURPOSE: TO CONVERT THE WEIGHT FROM KILOGRAM TO POUND
+
+#include<iostream>
+using namespace std;
+int main()
+
+{
+    float weight_kg, weight_pound;
+
+    cout<<"Enter your weight(KG) = ";
+    cin>>weight_kg;
+
+    weight_pound= (weight_kg*2.2);
+
+    cout<<"Your weight in pound is = "<<weight_pound;
+
+    return 0;
+}
