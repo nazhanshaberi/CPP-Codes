@@ -1,0 +1,32 @@
+//NAMA: NAZHAN
+//DATE: 8/3/2018
+//UPDATED: 13/12/2020
+//Allow user to include unit
+//PURPOSE: CALCULATE THE PERIMETER
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+int main ()
+
+
+{
+    float length, width, perimeter;
+    string unit;
+    
+    cout<<"Enter the unit (m)(mm)(cm) = ";
+    cin>>unit;
+
+    cout<<"Enter the length = ";
+    cin>>length;
+
+    cout<<"Enter the width = ";
+    cin>>width;
+
+    perimeter= (2*length + 2*width);
+
+    cout<<"The perimeter is = "<<perimeter<<unit;
+
+    return 0;
+}
