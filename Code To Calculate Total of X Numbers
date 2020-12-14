@@ -1,0 +1,26 @@
+ //NAME: MOHAMAD NAZHAN BIN MOHAMAD SHBAERI
+ //DATE: 3/1/2018
+ //PURPOSE: CALCULATE TOTAL OF (3) NUMBER
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+    int num1, num2, num3, sum;
+    cout<<"Enter num1=";
+    cin>>num1;
+
+    cout<<"Enter num2=";
+    cin>>num2;
+
+    cout<<"Enter num3=";
+    cin>>num3;
+
+    sum= num1+num2+num3;
+    cout<<"the sum of 3 number is:"<<sum;
+
+    return 0;
+}
