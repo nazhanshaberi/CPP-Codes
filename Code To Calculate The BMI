@@ -1,0 +1,27 @@
+ //NAME: MOHAMAD NAZHAN BIN MOHAMAD SHBAERI
+ //DATE: 3/1/2018
+ //PURPOSE: CALCULATE THE BMI
+
+
+#include<iostream>
+
+using namespace std;
+
+int main ()
+
+{
+    float bmi, height, weight;
+    cout<<"Enter your weight (kg) ";
+    cin>>weight;
+
+    cout<<"Enter your height (meter)";
+    cin>> height;
+
+    bmi=weight/(height*height);
+
+    cout<<"Body Mass Index = "<<bmi;
+
+return 0;
+
+
+}
