@@ -1,0 +1,83 @@
+//MOHAMAD NAZHAN BIN MOHAMAD SHABERI
+//SCHOOL OF MECHANICAL 141935
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	float status,tax,income;
+	
+	cout<<"Enter Your annual income"<<endl;
+	cout<<"RM ";
+	cin>>income;
+	
+	cout<<"Enter 1 if single or Enter 2 if Married"<<endl;
+	cin>>status;
+	
+	if(status==1)
+	
+		{ if (income>=80000)
+			tax=10000;
+			
+			else if (income<80000 && income>=60000)
+				tax=5000;
+				
+				else if (income<60000 && income>=40000)
+					tax=2500;
+					
+					else if (income<40000 && income>=20000)
+						tax=1400;
+						
+						else if (income<20000 && income>=10000)
+							tax=600;
+							
+							else if (income<10000 && income>=5000)
+								tax=250;
+								
+								else if (income<5000 && income>=1000)
+									tax=100;
+									
+									else
+										tax=0;
+										
+									cout<<"Your annual income tax rate is RM "<<tax;
+			
+		}
+	
+		
+	else if (status==2)
+		{if (income>=120000)
+			tax=9000;
+			
+			else if (income<120000 && income>=96000)
+				tax=4900;
+				
+				else if (income<96000 && income>=70000)
+					tax=2400;
+					
+					else if (income<70000 && income>=36000)
+						tax=1300;
+						
+						else if (income<36000 && income>=18000)
+							tax=550;
+							
+							else if (income<18000 && income>=9000)
+								tax=250;
+								
+								else if (income<9000 && income>=4000)
+									tax=100;
+									
+									else
+										tax=0;
+										
+											cout<<"Your annual income tax rate is RM "<<tax;
+		}
+	
+	else 
+        cout<<"You have entered an unuseable number. Please restart the program and enter 1 if single or Enter 2 if Married  " << endl;
+	
+	
+	return 0;
+}
